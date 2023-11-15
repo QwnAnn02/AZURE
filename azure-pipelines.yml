@@ -5,7 +5,7 @@
 
 trigger:
 - github:
-    repo: QwnAnn02/AZURE
+    repo: AZURE
     branch: main
     commit: true
 
