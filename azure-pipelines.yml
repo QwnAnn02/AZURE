@@ -2,20 +2,21 @@
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
-
 name: My Pipeline
 
 trigger:
- branches:
+  branches:
     include:
       - master
- paths:
+  paths:
     include:
       - hello.py/**
 
 pool:
- vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-latest'
 
 steps:
 - script: echo Hello World!
- displayName: "Print Hello World!"
+  displayName: "Print Hello World!"
+
+
