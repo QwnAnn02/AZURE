@@ -4,10 +4,9 @@
 # https://aka.ms/yaml
 
 trigger:
-- github:
-    repo: QwnAnn02/AZURE
-    branch: main
-
+  - github:
+      repo: QwnAnn02/AZURE
+      branch: main
 
 pool:
   vmImage: ubuntu-latest
