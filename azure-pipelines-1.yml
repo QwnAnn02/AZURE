@@ -4,12 +4,10 @@
 # https://aka.ms/yaml
 
 trigger:
-  paths:
-    include:
-      - hello.py
   branches:
     include:
       - main
+
 
 pool:
   vmImage: ubuntu-latest
